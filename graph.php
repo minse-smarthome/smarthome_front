@@ -7,7 +7,7 @@
 
 </head>
 <body>
-<div style="width:600px;">
+<div style="width:600px; ">
 <canvas id="line1"></canvas>
 </div>
 
@@ -22,13 +22,13 @@ var chart = new Chart(ctx, {
 				{
 					label: 'Temperature',
 					backgroundColor: 'transparent',
-					borderColor: "red",
+					borderColor: "#13ED00",
 					data: <?php echo json_encode($mytemp);?>
 				},
                 {
 					label: 'humidity',
 					backgroundColor: 'transparent',
-					borderColor: "blue",
+					borderColor: "#FC6BFF",
 					data: <?php echo json_encode($myhumi);?>
 				}
 		],

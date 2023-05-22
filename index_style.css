@@ -63,6 +63,10 @@ p{
     filter: invert(100%);
 }
 
+.full_div{
+    display: flex;
+}
+
 .door_div{
     margin-left: 80px;
     background: #62B4FF;
