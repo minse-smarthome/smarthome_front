@@ -66,10 +66,12 @@
                 $mydate[$i] = $row['id'];
                 $i++;
             }
-            echo "<div>";
-            include 'graph.php';
-            echo "</div>";
             ?>
+            <div class="graph_div">
+                <?php
+                include 'graph.php';
+                ?>
+            </div>
         </div>
     </form>
 </body>
